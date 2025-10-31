@@ -10,7 +10,7 @@
  */
 
 // This application is meant to be run locally and should not be made publicly accessible.
-if (!in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))) die();
+if (!in_array($_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1', '192.168.30.1', '192.168.1.142', '46.109.233.43', '162.158.48.137', '162.158.48.136'))) die();
 
 define('NL', PHP_EOL);
 
